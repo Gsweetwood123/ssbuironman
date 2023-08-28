@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Man Randomizer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <h1>Iron Man Randomizer</h1>
+
+    <fieldset>
+        <legend>5 or 10 man game?</legend>
+        <div id="charAmount">
+            <label for="5">
+                <input type="radio" name="charAmount" id="5" value="5" checked>
+                5
+            </label>
+            <label for="10">
+                <input type="radio" name="charAmount" id="10" value="10">
+                10
+            </label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Repeat characrters between players?</legend>
+        <div id="repeatOrNoRepeat">
+            <input type="radio" id="repeat" name="repeatOrNah" value='repeat' checked/>
+            <label for="repeat">Repeat</label>
+            <input type="radio" id="noRepeat" name="repeatOrNah" value="noRepeat"/>
+            <label for="noRepeat">No Repeat</label>
+        </div>
+    </fieldset>
+
+
+    <button id="choose">Choose Character</button>
+
+    <div class="player_list">
+        <h3 id="player"><img src="./images/player1.png" alt="player 1"></h3>
+        <ul id="player1_list">
+            
+        </ul>
+    </div>
+
+    <div class="player_list">
+        <h3 id="player"><img src="./images/player2.png" alt="player 2"></h3>
+        <ul id="player2_list">
+
+        </ul>
+    </div>
+
+    <button id="reset">Reset</button>    
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+* {
+    text-align: center;
+}
+
+fieldset {
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#player, img {
+    width: 100px;
+    height: auto;
+}
+
+.player_list{
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+    padding: 50px;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
